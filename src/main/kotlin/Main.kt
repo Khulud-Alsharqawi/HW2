@@ -32,7 +32,7 @@ fun main() {
     var Sal = readLine()!!.toDouble()
     println("Enter employee rate from 1 to 3")
     var rate : Int= readLine()!!.toInt()
-    var newSal : Double = 1.0
+    var newSal : Double = 0.0
     if (rate >=1 && rate<=3){
         if (rate==1){ newSal= Sal/100 *6
                  newSal+=Sal
